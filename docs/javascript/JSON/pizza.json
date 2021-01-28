@@ -1,0 +1,557 @@
+{
+    "pizza1": {
+        "id": "pepperony",
+        "type": "pizza",
+        "name": "Пепперони",
+        "price": 160,
+        "image": "../img/menu/pizzas/pepperony.png",
+        "description": "Создана для настоящих любителей терпких ощущений. Изысканный, терпкий вкус блюду придаёт основной ингредиент - пепперони. В переводе с итальянского языка пепперони обозначает «стручковый перец». В итало-американской кухне пепперони» - это разновидность салями. Именно этот ингредиент придает пицце пикантную остроту и незабываемый вкус.",
+        "options": {
+            "ingreds": {
+                "ingred1": {
+                    "text": "Томатный соус",
+                    "input": "pepperony_ingred1",
+                    "value": 45
+                },
+                "ingred2": {
+                    "text": "Сырный соус",
+                    "input": "pepperony_ingred2",
+                    "value": 35
+                },
+                "ingred3": {
+                    "text": "Чеснок",
+                    "input": "pepperony_ingred3",
+                    "value": 15
+                },
+                "ingred4": {
+                    "text": "Сладкий перец",
+                    "input": "pepperony_ingred4",
+                    "value": 20
+                },
+                "ingred5": {
+                    "text": "Базилик",
+                    "input": "pepperony_ingred5",
+                    "value": 15
+                }
+            },
+            "dough": {
+                "dough1": {
+                    "text": "Стандартное",
+                    "input": "pepperony_dough1",
+                    "value": 40,
+                    "checked": "checked"
+                },
+                "dough2": {
+                    "text": "Пышное",
+                    "input": "pepperony_dough2",
+                    "value": 80,
+                    "checked": ""
+                }
+            },
+            "size": {
+                "size1": {
+                    "text": "30см",
+                    "input": "pepperony_size1",
+                    "value": 30,
+                    "checked": "checked"
+                },
+                "size2": {
+                    "text": "40см",
+                    "input": "pepperony_size2",
+                    "value": 40,
+                    "checked": ""
+                },
+                "size3": {
+                    "text": "1/2 30см",
+                    "input": "pepperony_size3",
+                    "value": 15,
+                    "blocks": "pepperony_slice4, pepperony_slice5",
+                    "checked": ""
+                },
+                "size4": {
+                    "text": "1/2 40см",
+                    "input": "pepperony_size4",
+                    "value": 20,
+                    "blocks": "pepperony_slice4, pepperony_slice5",
+                    "checked": ""
+                }
+            },
+            "slice": {
+                "slice1": {
+                    "text": "Без нарезки",
+                    "input": "pepperony_slice1",
+                    "value": 0,
+                    "checked": "checked"
+                },
+                "slice2": {
+                    "text": "2 куска",
+                    "input": "pepperony_slice2",
+                    "value": 20,
+                    "checked": ""
+                },
+                "slice3": {
+                    "text": "4 куска",
+                    "input": "pepperony_slice3",
+                    "value": 20,
+                    "checked": ""
+                },
+                "slice4": {
+                    "text": "6 кусков",
+                    "input": "pepperony_slice4",
+                    "value": 20,
+                    "checked": ""
+                },
+                "slice5": {
+                    "text": "8 кусков",
+                    "input": "pepperony_slice5",
+                    "value": 20,
+                    "checked": ""
+                }
+            }
+        }
+    },
+    "pizza2": {
+        "id": "fourcheeses",
+        "type": "pizza",
+        "name": "Четыре сыра",
+        "price": 360,
+        "image": "../img/menu/pizzas/fourcheeses.png",
+        "description": "Сбалансированное сочетание молодого итальянского сыра в виде мягких шариков – моцареллы,одного из самых твердых и старых сыров, отличающегося особенной чешуйчатой структурой – пармезана,итальянского аналога французского рокфора с голубой плесенью – дор блю и традиционного голландского полутвёрдого сыра эдам создает неповторимую вкусовую палитру.",
+        "options": {
+            "ingreds": {
+                "ingred1": {
+                    "text": "Томатный соус",
+                    "input": "fourcheeses_ingred1",
+                    "value": 45
+                },
+                "ingred2": {
+                    "text": "Чеснок",
+                    "input": "fourcheeses_ingred2",
+                    "value": 35
+                },
+                "ingred3": {
+                    "text": "Сладкий перец",
+                    "input": "fourcheeses_ingred3",
+                    "value": 15
+                },
+                "ingred4": {
+                    "text": "Базилик",
+                    "input": "fourcheeses_ingred4",
+                    "value": 20
+                }
+            },
+            "dough": {
+                "dough1": {
+                    "text": "Стандартное",
+                    "input": "fourcheeses_dough1",
+                    "value": 40,
+                    "checked": "checked"
+                },
+                "dough2": {
+                    "text": "Пышное",
+                    "input": "fourcheeses_dough2",
+                    "value": 80,
+                    "checked": ""
+                }
+            },
+            "size": {
+                "size1": {
+                    "text": "30см",
+                    "input": "fourcheeses_size1",
+                    "value": 30,
+                    "checked": "checked"
+                },
+                "size2": {
+                    "text": "40см",
+                    "input": "fourcheeses_size2",
+                    "value": 40,
+                    "checked": ""
+                },
+                "size3": {
+                    "text": "1/2 30см",
+                    "input": "fourcheeses_size3",
+                    "value": 15,
+                    "blocks": "fourcheeses_slice4, fourcheeses_slice5",
+                    "checked": ""
+                },
+                "size4": {
+                    "text": "1/2 40см",
+                    "input": "fourcheeses_size4",
+                    "value": 20,
+                    "blocks": "fourcheeses_slice4, fourcheeses_slice5",
+                    "checked": ""
+                }
+            },
+            "slice": {
+                "slice1": {
+                    "text": "Без нарезки",
+                    "input": "fourcheeses_slice1",
+                    "value": 0,
+                    "checked": "checked"
+                },
+                "slice2": {
+                    "text": "2 куска",
+                    "input": "fourcheeses_slice2",
+                    "value": 20,
+                    "checked": ""
+                },
+                "slice3": {
+                    "text": "4 куска",
+                    "input": "fourcheeses_slice3",
+                    "value": 20,
+                    "checked": ""
+                },
+                "slice4": {
+                    "text": "6 кусков",
+                    "input": "fourcheeses_slice4",
+                    "value": 20,
+                    "checked": ""
+                },
+                "slice5": {
+                    "text": "8 кусков",
+                    "input": "fourcheeses_slice5",
+                    "value": 20,
+                    "checked": ""
+                }
+            }
+        }
+    },
+    "pizza3": {
+        "id": "sicilian",
+        "type": "pizza",
+        "name": "Сицилийская",
+        "price": 320,
+        "image": "../img/menu/pizzas/sicilian.png",
+        "description": "Сицилийская пицца, называемая в Италии Сфинчионе или по-сицилийски Сфинчини - род пиццы,родом из Палермо, столицы Сицилии. В отличие от других видов пиццы, по классическому рецепту сыр - итальянский сыр пекорино - здесь помещается под соусом, а также для её приготовления используются анчоусы.",
+        "options": {
+            "ingreds": {
+                "ingred1": {
+                    "text": "Томатный соус",
+                    "input": "sicilian_ingred1",
+                    "value": 45
+                },
+                "ingred2": {
+                    "text": "Сырный соус",
+                    "input": "sicilian_ingred2",
+                    "value": 35
+                },
+                "ingred3": {
+                    "text": "Кедровые орешки",
+                    "input": "sicilian_ingred3",
+                    "value": 15
+                },
+                "ingred4": {
+                    "text": "Базилик",
+                    "input": "sicilian_ingred4",
+                    "value": 15
+                },
+                "ingred5": {
+                    "text": "Охотничьи колбаски",
+                    "input": "sicilian_ingred5",
+                    "value": 40
+                }
+            },
+            "dough": {
+                "dough1": {
+                    "text": "Стандартное",
+                    "input": "sicilian_dough1",
+                    "value": 40,
+                    "checked": "checked"
+                },
+                "dough2": {
+                    "text": "Пышное",
+                    "input": "sicilian_dough2",
+                    "value": 80,
+                    "checked": ""
+                }
+            },
+            "size": {
+                "size1": {
+                    "text": "30см",
+                    "input": "sicilian_size1",
+                    "value": 30,
+                    "checked": "checked"
+                },
+                "size2": {
+                    "text": "40см",
+                    "input": "sicilian_size2",
+                    "value": 40,
+                    "checked": ""
+                },
+                "size3": {
+                    "text": "1/2 30см",
+                    "input": "sicilian_size3",
+                    "value": 15,
+                    "blocks": "sicilian_slice4, sicilian_slice5",
+                    "checked": ""
+                },
+                "size4": {
+                    "text": "1/2 40см",
+                    "input": "sicilian_size4",
+                    "value": 20,
+                    "blocks": "sicilian_slice4, sicilian_slice5",
+                    "checked": ""
+                }
+            },
+            "slice": {
+                "slice1": {
+                    "text": "Без нарезки",
+                    "input": "sicilian_slice1",
+                    "value": 0,
+                    "checked": "checked"
+                },
+                "slice2": {
+                    "text": "2 куска",
+                    "input": "sicilian_slice2",
+                    "value": 20,
+                    "checked": ""
+                },
+                "slice3": {
+                    "text": "4 куска",
+                    "input": "sicilian_slice3",
+                    "value": 20,
+                    "checked": ""
+                },
+                "slice4": {
+                    "text": "6 кусков",
+                    "input": "sicilian_slice4",
+                    "value": 20,
+                    "checked": ""
+                },
+                "slice5": {
+                    "text": "8 кусков",
+                    "input": "sicilian_slice5",
+                    "value": 20,
+                    "checked": ""
+                }
+            }
+        }
+    },
+    "pizza4": {
+        "id": "margaritha",
+        "type": "pizza",
+        "name": "Маргарита",
+        "price": 285,
+        "image": "../img/menu/pizzas/margaritha.png",
+        "description": "Пицца Маргарита — традиционная итальянская пицца, пожалуй, самая популярная в мире. Состав этой пиццы необычайно прост. Мягкое внутри и хрустящее снаружи тесто, сочетание расплавленного сыра и помидоров, листья свежего базилика, которые придают ей неповторимый вкус и аромат, сделали это блюдо любимым во всем мире!",
+        "options": {
+            "ingreds": {
+                "ingred1": {
+                    "text": "Томатный соус",
+                    "input": "margaritha_ingred1",
+                    "value": 45
+                },
+                "ingred2": {
+                    "text": "Сырный соус",
+                    "input": "margaritha_ingred2",
+                    "value": 35
+                },
+                "ingred3": {
+                    "text": "Лук",
+                    "input": "margaritha_ingred3",
+                    "value": 15
+                },
+                "ingred4": {
+                    "text": "Базилик",
+                    "input": "margaritha_ingred4",
+                    "value": 15
+                },
+                "ingred5": {
+                    "text": "Чеснок",
+                    "input": "margaritha_ingred5",
+                    "value": 20
+                },
+                "ingred6": {
+                    "text": "Орегано",
+                    "input": "margaritha_ingred6",
+                    "value": 10
+                }
+            },
+            "dough": {
+                "dough1": {
+                    "text": "Стандартное",
+                    "input": "margaritha_dough1",
+                    "value": 40,
+                    "checked": "checked"
+                },
+                "dough2": {
+                    "text": "Пышное",
+                    "input": "margaritha_dough2",
+                    "value": 80,
+                    "checked": ""
+                }
+            },
+            "size": {
+                "size1": {
+                    "text": "30см",
+                    "input": "margaritha_size1",
+                    "value": 30,
+                    "checked": "checked"
+                },
+                "size2": {
+                    "text": "40см",
+                    "input": "margaritha_size2",
+                    "value": 40,
+                    "checked": ""
+                },
+                "size3": {
+                    "text": "1/2 30см",
+                    "input": "margaritha_size3",
+                    "value": 15,
+                    "blocks": "margaritha_slice4, margaritha_slice5",
+                    "checked": ""
+                },
+                "size4": {
+                    "text": "1/2 40см",
+                    "input": "margaritha_size4",
+                    "value": 20,
+                    "blocks": "margaritha_slice4, margaritha_slice5",
+                    "checked": ""
+                }
+            },
+            "slice": {
+                "slice1": {
+                    "text": "Без нарезки",
+                    "input": "margaritha_slice1",
+                    "value": 0,
+                    "checked": "checked"
+                },
+                "slice2": {
+                    "text": "2 куска",
+                    "input": "margaritha_slice2",
+                    "value": 20,
+                    "checked": ""
+                },
+                "slice3": {
+                    "text": "4 куска",
+                    "input": "margaritha_slice3",
+                    "value": 20,
+                    "checked": ""
+                },
+                "slice4": {
+                    "text": "6 кусков",
+                    "input": "margaritha_slice4",
+                    "value": 20,
+                    "checked": ""
+                },
+                "slice5": {
+                    "text": "8 кусков",
+                    "input": "margaritha_slice5",
+                    "value": 20,
+                    "checked": ""
+                }
+            }
+        }
+    },
+    "pizza5": {
+        "id": "vegeterian",
+        "type": "pizza",
+        "name": "Вегетарианская",
+        "price": 150,
+        "image": "../img/menu/pizzas/vegeterian.png",
+        "description": "Главным плюсом можно назвать её диетические свойства. Благодаря тому, что в качестве начинки выступают только овощи и грибы, калорий в ней гораздо меньше, чем в любой мясной пицце. Далее по списку – богатство витаминами и полезными минералами. В сыре, который добавляется по вашему желанию в пиццу, содержится кальций, который несомненно поможет вам укрепить организм!",
+        "options": {
+            "ingreds": {
+                "ingred1": {
+                    "text": "Томатный соус",
+                    "input": "vegeterian_ingred1",
+                    "value": 45
+                },
+                "ingred2": {
+                    "text": "Сырный соус",
+                    "input": "vegeterian_ingred2",
+                    "value": 35
+                },
+                "ingred3": {
+                    "text": "Лук",
+                    "input": "vegeterian_ingred3",
+                    "value": 15
+                },
+                "ingred4": {
+                    "text": "Базилик",
+                    "input": "vegeterian_ingred4",
+                    "value": 15
+                },
+                "ingred5": {
+                    "text": "Маринованные огурцы",
+                    "input": "vegeterian_ingred5",
+                    "value": 20
+                }
+            },
+            "dough": {
+                "dough1": {
+                    "text": "Стандартное",
+                    "input": "vegeterian_dough1",
+                    "value": 40,
+                    "checked": "checked"
+                },
+                "dough2": {
+                    "text": "Пышное",
+                    "input": "vegeterian_dough2",
+                    "value": 80,
+                    "checked": ""
+                }
+            },
+            "size": {
+                "size1": {
+                    "text": "30см",
+                    "input": "vegeterian_size1",
+                    "value": 30,
+                    "checked": "checked"
+                },
+                "size2": {
+                    "text": "40см",
+                    "input": "vegeterian_size2",
+                    "value": 40,
+                    "checked": ""
+                },
+                "size3": {
+                    "text": "1/2 30см",
+                    "input": "vegeterian_size3",
+                    "value": 15,
+                    "blocks": "vegeterian_slice4, vegeterian_slice5",
+                    "checked": ""
+                },
+                "size4": {
+                    "text": "1/2 40см",
+                    "input": "vegeterian_size4",
+                    "value": 20,
+                    "blocks": "vegeterian_slice4, vegeterian_slice5",
+                    "checked": ""
+                }
+            },
+            "slice": {
+                "slice1": {
+                    "text": "Без нарезки",
+                    "input": "vegeterian_slice1",
+                    "value": 0,
+                    "checked": "checked"
+                },
+                "slice2": {
+                    "text": "2 куска",
+                    "input": "vegeterian_slice2",
+                    "value": 20,
+                    "checked": ""
+                },
+                "slice3": {
+                    "text": "4 куска",
+                    "input": "vegeterian_slice3",
+                    "value": 20,
+                    "checked": ""
+                },
+                "slice4": {
+                    "text": "6 кусков",
+                    "input": "vegeterian_slice4",
+                    "value": 20,
+                    "checked": ""
+                },
+                "slice5": {
+                    "text": "8 кусков",
+                    "input": "vegeterian_slice5",
+                    "value": 20,
+                    "checked": ""
+                }
+            }
+        }
+    }
+}

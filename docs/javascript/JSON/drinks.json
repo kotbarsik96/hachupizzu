@@ -1,0 +1,263 @@
+{
+    "drink1": {
+        "id": "coca-cola",
+        "type": "drink",
+        "name": "Coca-Cola",
+        "price": 80,
+        "image": "../img/menu/drinks/coca-cola/classic_0.33l.png",
+        "slogan": "Попробуй... Почувствуй...",
+        "options": {
+            "size": {
+                "size1": {
+                    "text": "0.3л",
+                    "input": "coca-cola_size1",
+                    "image": "0.33l",
+                    "checked": "checked",
+                    "value": 35
+                },
+                "size2": {
+                    "text": "0.5л",
+                    "input": "coca-cola_size2",
+                    "image": "0.5l",
+                    "checked": "",
+                    "value": 50
+                },
+                "size3": {
+                    "text": "1л",
+                    "input": "coca-cola_size3",
+                    "image": "1l",
+                    "checked": "",
+                    "value": 100
+                }
+            },
+            "taste": {
+                "taste1": {
+                    "text": "Классический",
+                    "input": "coca-cola_taste1",
+                    "image": "classic",
+                    "checked": "checked",
+                    "unlocks": "coca-cola_additional2",
+                    "value": 0
+                },
+                "taste2": {
+                    "text": "Ванильный",
+                    "input": "coca-cola_taste2",
+                    "image": "vanilla",
+                    "checked": "",
+                    "blocks": "coca-cola_additional2",
+                    "value": 0
+                }
+            },
+            "additional": {
+                "additional1": {
+                    "text": "С сахаром",
+                    "input": "coca-cola_additional1",
+                    "checked": "checked",
+                    "value": 20
+                },
+                "additional2": {
+                    "text": "Без сахара",
+                    "input": "coca-cola_additional2",
+                    "checked": "",
+                    "value": 10
+                }
+            } 
+        }
+    },
+    "drink2": {
+        "id": "fanta",
+        "type": "drink",
+        "name": "Fanta",
+        "price": 70,
+        "image": "../img/menu/drinks/fanta/orange_0.33l.png",
+        "slogan": "Вливайся!",
+        "options": {
+            "size": {
+                "size1": {
+                    "text": "0.3л",
+                    "input": "fanta_size1",
+                    "image": "0.33l",
+                    "checked": "checked",
+                    "value": 30
+                },
+                "size2": {
+                    "text": "0.5л",
+                    "input": "fanta_size2",
+                    "image": "0.5l",
+                    "checked": "",
+                    "value": 45
+                },
+                "size3": {
+                    "text": "1л",
+                    "input": "fanta_size3",
+                    "image": "1l",
+                    "checked": "",
+                    "value": 90
+                }
+            },
+            "taste": {
+                "taste1": {
+                    "text": "Апельсин",
+                    "input": "fanta_taste1",
+                    "image": "orange",
+                    "checked": "checked",
+                    "value": 0
+                },
+                "taste2": {
+                    "text": "Виноград",
+                    "input": "fanta_taste2",
+                    "image": "grape",
+                    "checked": "",
+                    "value": 10
+                }
+            }
+        }
+    },
+    "drink3": {
+        "id": "pepsi",
+        "type": "drink",
+        "name": "Pepsi",
+        "price": 70,
+        "image": "../img/menu/drinks/pepsi/classic_0.33l.png",
+        "slogan": "Живи настоящим!",
+        "options": {
+            "size": {
+                "size1": {
+                    "text": "0.3л",
+                    "input": "pepsi_size1",
+                    "image": "0.33l",
+                    "checked": "checked",
+                    "value": 35
+                },
+                "size2": {
+                    "text": "0.5л",
+                    "input": "pepsi_size2",
+                    "image": "0.5l",
+                    "checked": "",
+                    "value": 50
+                },
+                "size3": {
+                    "text": "1л",
+                    "input": "pepsi_size3",
+                    "image": "1l",
+                    "checked": "",
+                    "value": 100
+                }
+            },
+            "additional": {
+                "additional1": {
+                    "text": "Обычный",
+                    "input": "pepsi_additional1",
+                    "image": "classic",
+                    "checked": "checked",
+                    "value": 20
+                },
+                "additional2": {
+                    "text": "Без калорий",
+                    "input": "pepsi_additional2",
+                    "image": "max",
+                    "checked": "",
+                    "value": 10
+                }
+            }
+        }
+    },
+    "drink4": {
+        "id": "lipton",
+        "type": "drink",
+        "name": "Lipton",
+        "price": 70,
+        "image": "../img/menu/drinks/lipton/lemon_0.5l.png",
+        "slogan": "Чай это может.",
+        "options": {
+            "size": {
+                "size1": {
+                    "text": "0.5л",
+                    "input": "lipton_size1",
+                    "image": "0.5l",
+                    "checked": "checked",
+                    "value": 45
+                },
+                "size2": {
+                    "text": "1л",
+                    "input": "lipton_size2",
+                    "image": "1l",
+                    "checked": "",
+                    "value": 90
+                }
+            },
+            "taste": {
+                "taste1": {
+                    "text": "Лимон",
+                    "input": "lipton_taste1",
+                    "image": "lemon",
+                    "checked": "checked",
+                    "value": 0
+                },
+                "taste2": {
+                    "text": "Зелёный",
+                    "input": "lipton_taste2",
+                    "image": "green",
+                    "checked": "",
+                    "value": 5
+                },
+                "taste3": {
+                    "text": "Персик",
+                    "input": "lipton_taste3",
+                    "image": "peach",
+                    "checked": "",
+                    "value": 5
+                }
+            }
+        }
+    },
+    "drink5": {
+        "id": "schweppes",
+        "type": "drink",
+        "name": "Schweppes",
+        "price": 70,
+        "image": "../img/menu/drinks/schweppes/bitter-lemon_0.33l.png",
+        "slogan": "Schweppes. Освежает особенно.",
+        "options": {
+            "size": {
+                "size1": {
+                    "text": "0.3л",
+                    "input": "schweppes_size1",
+                    "image": "0.33l",
+                    "checked": "checked",
+                    "value": 35
+                },
+                "size2": {
+                    "text": "0.5л",
+                    "input": "schweppes_size2",
+                    "image": "0.5l",
+                    "checked": "",
+                    "value": 50
+                },
+                "size3": {
+                    "text": "1л",
+                    "input": "schweppes_size3",
+                    "image": "1l",
+                    "checked": "",
+                    "value": 100
+                }
+            },
+            "taste": {
+                "taste1": {
+                    "text": "Bitter Lemon",
+                    "input": "schweppes_taste1",
+                    "image": "bitter-lemon",
+                    "checked": "checked",
+                    "value": 20
+                },
+                "taste2": {
+                    "text": "Tonic",
+                    "input": "schweppes_taste2",
+                    "image": "tonic",
+                    "checked": "",
+                    "value": 10
+                }
+            }
+        }
+    }
+}
